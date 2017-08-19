@@ -30,7 +30,8 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python -m unittest
+            coverage run -m unittest
+            coverage html -d test-reports/coverage.html
 
       - store_artifacts:
           path: test-reports
