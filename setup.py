@@ -10,4 +10,4 @@ setup(name='td1a_unit_test_ci',
       author_email='xavier.dupre@gmail.com',
       url='https://github.com/sdpython/td1a_unit_test_ci',
       packages=find_packages(),
-     )
+      )

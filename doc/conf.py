@@ -3,17 +3,22 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(
+    0,
+    os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            '..')))
 from td1a_unit_test_ci import __version__
 
 extensions = ['sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.ifconfig',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages']
+              'sphinx.ext.intersphinx',
+              'sphinx.ext.todo',
+              'sphinx.ext.coverage',
+              'sphinx.ext.mathjax',
+              'sphinx.ext.ifconfig',
+              'sphinx.ext.viewcode',
+              'sphinx.ext.githubpages']
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -64,8 +69,11 @@ latex_elements = {
 }
 
 latex_documents = [
-    (master_doc, 'td1a_unit_test_ci.tex', 'td1a\\_unit\\_test\\_ci Documentation',
-     'Xavier Dupré', 'manual'),
+    (master_doc,
+     'td1a_unit_test_ci.tex',
+     'td1a\\_unit\\_test\\_ci Documentation',
+     'Xavier Dupré',
+     'manual'),
 ]
 
 texinfo_documents = [
