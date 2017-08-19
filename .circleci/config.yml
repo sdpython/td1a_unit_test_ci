@@ -33,7 +33,7 @@ jobs:
             coverage run -m unittest discover tests
             coverage html -d test-reports/coverage.html
             python setup.py bdist_wheel
-            cp build/*.whl test-reports
+            cp dist/*.whl test-reports
 
       - store_artifacts:
           path: test-reports
