@@ -35,17 +35,20 @@ jobs:
       - run:
           name: coverage
           command: |
+            . venv/bin/activate
             coverage html -d test-reports/coverage.html
 
       - run:
           name: wheel
           command: |
+            . venv/bin/activate
             python setup.py bdist_wheel
             cp dist/*.whl test-reports
 
       - run:
           name: documentation
           command: |
+            . venv/bin/activate
             sphinx-build -M html doc test-reports
 
       - store_artifacts:
