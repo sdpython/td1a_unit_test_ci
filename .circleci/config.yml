@@ -34,6 +34,7 @@ jobs:
             coverage html -d test-reports/coverage.html
             python setup.py bdist_wheel
             cp dist/*.whl test-reports
+            sphinx-build -M html doc test-reports
 
       - store_artifacts:
           path: test-reports
