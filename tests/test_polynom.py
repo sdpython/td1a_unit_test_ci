@@ -2,7 +2,7 @@
 Unit tests for ``polynom.py``.
 """
 
-from polynom import solve_polynom
+from td1a_unit_test_ci.polynom import solve_polynom
 
 import unittest
 
