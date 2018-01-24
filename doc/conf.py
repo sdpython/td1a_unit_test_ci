@@ -18,7 +18,8 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.mathjax',
               'sphinx.ext.ifconfig',
               'sphinx.ext.viewcode',
-              'sphinx.ext.githubpages']
+              'sphinx.ext.githubpages',
+              'sphinx_gallery.gen_gallery']
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -83,3 +84,10 @@ texinfo_documents = [
 ]
 
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+sphinx_gallery_conf = {
+    # path to your examples scripts
+    'examples_dirs' : os.path.join(os.path.dirname(__file__), '../examples'),
+    # path where to save gallery generated examples
+    'gallery_dirs'  : 'auto_examples'
+}

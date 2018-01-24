@@ -1,4 +1,5 @@
 coverage
 sphinx
+sphinx-gallery
 sphinx_rtd_theme
 wheel
