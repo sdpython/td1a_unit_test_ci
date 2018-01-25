@@ -10,6 +10,7 @@ session `Tests unitaires, setup et ingéniérie logicielle <http://www.xavierdup
     :maxdepth: 2
 
     polynom
+    auto_examples/index
 
 
 Indices and tables
