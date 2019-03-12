@@ -10,7 +10,8 @@ package_dir = {k: os.path.join(here, k.replace(".", "/")) for k in packages}
 
 setup(name='td1a_unit_test_ci',
       version='0.1',
-      description="module très simple pour essayer l'inégration continue",
+      description="module très simple pour essayer l'intégration continue",
+      long_description="texte visible sur pypi si le projet est uploadé",
       author='Xavier Dupré',
       author_email='xavier.dupre@gmail.com',
       url='https://github.com/sdpython/td1a_unit_test_ci',
