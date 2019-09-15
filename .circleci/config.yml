@@ -34,6 +34,12 @@ jobs:
             coverage run  --omit=tests/test_*.py -m unittest discover tests
 
       - run:
+          name: flake8
+          command: |
+            . venv/bin/activate
+            python -m flake8 .
+
+      - run:
           name: coverage
           command: |
             . venv/bin/activate

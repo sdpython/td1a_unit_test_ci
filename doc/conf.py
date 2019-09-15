@@ -9,7 +9,7 @@ sys.path.insert(
         os.path.join(
             os.path.dirname(__file__),
             '..')))
-from td1a_unit_test_ci import __version__
+from td1a_unit_test_ci import __version__  # noqa
 
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.intersphinx',
@@ -35,7 +35,7 @@ exclude_patterns = []
 pygments_style = 'sphinx'
 todo_include_todos = True
 
-import alabaster
+import alabaster  # noqa
 html_theme = "alabaster"
 html_theme_path = [alabaster.get_path()]
 
@@ -87,7 +87,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 
 sphinx_gallery_conf = {
     # path to your examples scripts
-    'examples_dirs' : os.path.join(os.path.dirname(__file__), '../examples'),
+    'examples_dirs': os.path.join(os.path.dirname(__file__), '../examples'),
     # path where to save gallery generated examples
-    'gallery_dirs'  : 'auto_examples'
+    'gallery_dirs': 'auto_examples'
 }
