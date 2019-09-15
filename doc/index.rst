@@ -25,5 +25,4 @@ Sources available on
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
 * `Code coverage <coverage.html>`_
