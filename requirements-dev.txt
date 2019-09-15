@@ -1,6 +1,6 @@
 coverage
+flake8
 pillow
 sphinx
 sphinx-gallery
-sphinx_rtd_theme
 wheel
