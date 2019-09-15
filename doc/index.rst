@@ -25,3 +25,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* `Code coverage <coverage.html>`_
