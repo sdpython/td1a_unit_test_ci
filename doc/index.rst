@@ -1,8 +1,9 @@
 
-.. image:: logo.png
+.. image:: _static/logo.png
+    :width: 50
 
-td1a_unit_test_ci documentation
-===============================
+td1a_unit_test_ci: simple module template
+=========================================
 
 This package does nothing except showing how to enable
 continuous integration and documentation for a Python

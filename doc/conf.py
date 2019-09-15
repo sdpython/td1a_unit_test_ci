@@ -19,7 +19,8 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.ifconfig',
               'sphinx.ext.viewcode',
               'sphinx.ext.githubpages',
-              'sphinx_gallery.gen_gallery']
+              'sphinx_gallery.gen_gallery',
+              'alabaster']
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -34,9 +35,9 @@ exclude_patterns = []
 pygments_style = 'sphinx'
 todo_include_todos = True
 
-import sphinx_rtd_theme
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+import alabaster
+html_theme = "alabaster"
+html_theme_path = [alabaster.get_path()]
 
 html_theme_options = {}
 html_static_path = ['_static']

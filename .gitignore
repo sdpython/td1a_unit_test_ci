@@ -4,4 +4,4 @@ coverage.html/*
 dist/*
 build/*
 *egg-info/*
-
+doc/auto_examples/*
