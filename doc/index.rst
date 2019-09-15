@@ -1,7 +1,4 @@
 
-.. image:: _static/logo.png
-    :width: 50
-
 td1a_unit_test_ci: simple module template
 =========================================
 

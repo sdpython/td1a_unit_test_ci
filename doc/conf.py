@@ -11,18 +11,21 @@ sys.path.insert(
             '..')))
 from td1a_unit_test_ci import __version__  # noqa
 
-extensions = ['sphinx.ext.autodoc',
-              'sphinx.ext.intersphinx',
-              'sphinx.ext.todo',
-              'sphinx.ext.coverage',
-              'sphinx.ext.mathjax',
-              'sphinx.ext.ifconfig',
-              'sphinx.ext.viewcode',
-              'sphinx.ext.githubpages',
-              'sphinx_gallery.gen_gallery',
-              'alabaster']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'sphinx_gallery.gen_gallery',
+    'alabaster',
+]
 
 templates_path = ['_templates']
+html_logo = '_static/logo.png'
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'td1a_unit_test_ci'
