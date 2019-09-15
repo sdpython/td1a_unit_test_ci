@@ -18,6 +18,9 @@ notebooks/td1a_unit_test_ci.html>`_.
     polynom
     auto_examples/index
 
+Sources available on
+`github/td1a_unit_test_ci <https://github.com/sdpython/td1a_unit_test_ci>`_.
+
 *Indices and tables*
 
 * :ref:`genindex`
