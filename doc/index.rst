@@ -18,7 +18,6 @@ notebooks/td1a_unit_test_ci.html>`_.
     polynom
     auto_examples/index
 
-
 Indices and tables
 ==================
 
