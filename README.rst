@@ -2,6 +2,10 @@
 .. image:: https://circleci.com/gh/sdpython/td1a_unit_test_ci/tree/master.svg?style=svg
     :target: https://circleci.com/gh/sdpython/td1a_unit_test_ci/tree/master
 
+.. image:: https://img.shields.io/github/repo-size/sdpython/td1a_unit_test_ci
+    :target: https://github.com/sdpython/td1a_unit_test_ci/
+    :alt: size
+
 td1a_unit_test_ci
 =================
 
